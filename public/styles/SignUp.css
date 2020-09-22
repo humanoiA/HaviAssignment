@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+   background: url("https://i.pinimg.com/originals/0b/ac/47/0bac4734cc1c2fa4f98b4d2277130bd1.jpg");
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   
+}
+html{
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+.content{
+    text-align: center;
+}
+.jumbotron{
+    color: aliceblue;
+    background-color : #f6f6f6!important; 
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+label{
+    font-size: 2em;
+}
+#comp{
+   display: inline;
+}
+::placeholder{
+    font-size: x-large;
+}
+.form-group {
+    margin-bottom: 1rem;
+    margin-top: 2em;
+} 
+
+
+@media (max-width:540px){
+    label {
+        font-size: 1em;
+    }
+}
+@media (max-width:700px){
+    #comp{
+        color: red;
+    }
+}

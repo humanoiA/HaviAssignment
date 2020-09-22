@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+    background: url("https://i.pinimg.com/originals/0b/ac/47/0bac4734cc1c2fa4f98b4d2277130bd1.jpg")
+}
+.jumbotron{
+    background-color:rgba(0,0,0,0.05) !important;
+
+}
+.col{
+    padding-top: 5rem;
+}
+.header{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.buttons{
+    color:black;
+    background-color:#99f3bd;
+    border:  0px solid #99f3bd ;
+    
+    width: 5em;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    font-size: 3rem;
+    margin-top: 1em;
+    border-radius: 10em !important;
+}
+a {
+    color:  black !important;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+#registerBlock{
+    margin-top: 25%;
+    margin-left: 25%;  
+}
+#returnBlock{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+#logout{
+    margin-left: 70%;
+    margin-top: 5%;
+}
+@media (min-width: 576px){
+.jumbotron {
+    padding: 4rem 2rem;
+    margin-top: 25rem;
+}
+}
+
