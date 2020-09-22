@@ -53,5 +53,5 @@ app.get("/admin",function(req,res){
 });
 
 app.listen(port, () => {
-    console.log('listening on 3000')
+    console.log(`Running on port ${port}`)
   })
