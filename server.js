@@ -26,7 +26,7 @@ app.use(session({
 app.use('/userAPI/',userapi);
 
 app.get("/",function(req,res){
-    res.sendFile(__dirname+'/index.html');
+    res.sendFile(__dirname+'/Index.html');
 
 });
 

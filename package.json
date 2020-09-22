@@ -5,7 +5,6 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
-   
   },
   "author": "",
   "license": "ISC",
@@ -21,5 +20,4 @@
     "validator": "^13.1.17",
     "nodemon": "^2.0.4"
   }
-  
 }
